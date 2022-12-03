@@ -112,7 +112,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldNotSetCurrentStationAboveMax() {
+    public void shouldSetCurrentStationAboveMax() {
         Radio radio = new Radio();
         radio.setCurrentStation(10);
 
@@ -134,7 +134,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldNotSetCurrentAboveMax() {
+    public void shouldSetCurrentVolumeAboveMax() {
         Radio radio = new Radio();
         radio.setCurrentVolume(11);
 
